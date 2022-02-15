@@ -1,23 +1,37 @@
-body{
+.body{
+    background-color: aquamarine;
+}
+.name{
+    font-family: sans-serif;
+    text-align: center;
+}
+.basic{
     text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: lightblue;
+    width: 300px;
+    border-radius: 50px;
+    transition: transform .2s;
 }
-.image{
-    border-radius: 60px;
-    box-shadow: 10px 10px rgb(0, 0, 0);
+.basic:hover{
+    transform: scale(1.1);
 }
-.description{
-    background-color: rgb(146, 141, 141);
-    width: 600px;
-    border: 20px solid rgb(146, 141, 141);
-    border-radius: 30px;
-    box-shadow: 10px 10px rgb(0, 93, 124);
+.starter{
+    text-align: center;
+    width: 340px;
+    border-radius: 50px;
+    transition: transform .2s;
 }
-.page{
+.starter:hover{
+    transform: scale(1.1);
+}
+.premium{
     text-align: right;
-    margin: 50px;
+    width: 300px;
+    border-radius: 50px;
+    transition: transform .2s;
 }
-.button{
-    width: 170px;
+.premium:hover{
+    transform: scale(1.1);
+}
+.photo{
+    text-align: center;
 }
